@@ -41,7 +41,7 @@ const Hero = () => {
         >
           <div className="flex-1">
             <a href="#hero">
-              <img src="../../public/logo.png" alt=""
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt=""
               className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 hover:scale-110 transition-transform duration-900 ease-in-out"/>
             </a>
           </div>
@@ -235,7 +235,7 @@ const Hero = () => {
                     transition={{ type: "spring", stiffness: 300 }}
                   >
                     <img
-                      src={`../../public/${
+                      src={`${import.meta.env.BASE_URL}${
                         index === 0
                           ? "github.jpg"
                           : index === 1
@@ -271,7 +271,7 @@ const Hero = () => {
             className="w-72 md:w-[400px] aspect-square rounded-full overflow-hidden border-2 border-black transition-transform duration-900 ease-in-out shadow-[0_0_30px_rgba(99,102,241,0.4)] ring-1 ring-red-400/20 hover:shadow-[0_0_35px_rgba(0,0,0,0.6)] dark:hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] transition-shadow duration-400 "
           >
             <img
-              src="../../public/profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt="profile"
               className="w-full h-full object-cover"
             />

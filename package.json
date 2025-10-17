@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Omprakasht121.github.io/portfolio-om/",
+  "homepage": "https://omprakasht121.github.io/om-portfolio/",
 
   "scripts": {
     "dev": "vite",

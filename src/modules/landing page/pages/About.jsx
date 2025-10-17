@@ -29,7 +29,7 @@ const About = () => {
                     transition={{ duration: 0.8 }} 
                     viewport={{ once: false, amount: 0.3 }}
                     className="h-full w-full flex justify-end items-center hidden md:flex p-8 pb-12 ">
-                        <img src="../../../../public/working.gif" alt=""
+                        <img src={`${import.meta.env.BASE_URL}working.gif`} alt=""
                         className="md:w-[420px] md:h-[500px] lg:h-[550px] lg:w-[600px] object-cover rounded-2xl shadow-lg shadow-indigo-900/40 border border-indigo-700/30 hover:scale-105  transition-transform duration-900 ease-in-out hover:shadow-[0_10px_35px_rgba(99,102,241,0.7)] transition-shadow duration-300" />
                         
                     </motion.div>

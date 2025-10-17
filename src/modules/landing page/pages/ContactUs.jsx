@@ -139,7 +139,7 @@ const ContactUs = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <img
-                    src={`../../public/${
+                    src={`${import.meta.env.BASE_URL}${
                       index === 0
                         ? "github.jpg"
                         : index === 1

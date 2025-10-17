@@ -36,7 +36,7 @@ const Projects = () => {
                         <div className=" w-full md:max-w-sm  flex flex-col  gap-2 p-4 text-black dark:text-white ">
                             <div className="h-auto md:h-40 lg:h-56 w-auto mb-4 hover:scale-105 hover:border-2 hover:border-blue-500 dark:hover:border-blue-200 shadow-md  hover:shadow-[0_0_20px_rgba(99,11,241,0.5)]  dark:hover:shadow-[0_0_30px_rgba(99,11,241,0.6)] transition-transform duration-500 ease-in-out ">
                             <img
-                                src="../../../../public/project1.png"
+                                src={`${import.meta.env.BASE_URL}project1.png`}
                                 alt="Spices E-commerce Website"
                                 className=" w-full h-full rounded-xl object-cover"
                             />
@@ -68,7 +68,7 @@ const Projects = () => {
                     <div className=" w-full md:max-w-sm flex flex-col gap-2 p-4  text-black dark:text-white">
                         <div className="h-auto md:h-40 lg:h-56 w-auto mb-4 hover:scale-105 hover:border-2 hover:border-blue-500 dark:hover:border-blue-200 shadow-md hover:shadow-[0_0_20px_rgba(99,11,241,0.5)]  dark:hover:shadow-[0_0_30px_rgba(99,11,241,0.6)] transition-transform duration-500 ease-in-out ">
                         <img
-                            src="../../../../public/project2.png"
+                            src={`${import.meta.env.BASE_URL}project2.png`}
                             alt="Spices E-commerce Website"
                             className=" w-full h-full rounded-xl object-cover"
                         />
@@ -97,7 +97,7 @@ const Projects = () => {
                     <div className=" w-full md:max-w-sm flex flex-col gap-2 p-4  text-black dark:text-white">
                         <div className="h-auto md:h-40 lg:h-56 w-auto mb-4 hover:scale-105 hover:border-2 hover:border-blue-500 dark:hover:border-blue-200 shadow-md hover:shadow-[0_0_20px_rgba(99,11,241,0.5)]  dark:hover:shadow-[0_0_30px_rgba(99,11,241,0.6)] transition-transform duration-500 ease-in-out ">
                         <img
-                            src="../../../../public/project3.jpg"
+                            src={`${import.meta.env.BASE_URL}project3.jpg`}
                             alt="Spices E-commerce Website"
                             className=" w-full h-full rounded-xl object-cover"
                         />

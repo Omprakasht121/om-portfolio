@@ -35,7 +35,7 @@ const Skills = () => {
         transition={{ duration: 0.1, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.4 }}
         className="max-w-sm w-full mx-auto p-6 bg-gradient-to-br from-yellow-900 to-yellow-800 text-white  rounded-xl dark:shadow-lg  transform hover:scale-105 shadow-xl hover:shadow-[0_0_25px_rgba(100,100,0,.8)] dark:hover:shadow-yellow-500/40 transition-transform duration-900 ease-in-out">
-          <img src="../../../../public/web.png" className="h-20 w-20" alt="Frontend" />
+          <img src={`${import.meta.env.BASE_URL}web.png`} className="h-20 w-20" alt="Frontend" />
           <h2 className="mt-4 font-semibold text-2xl">Front-end Development</h2>
           <p className="mt-2 text-sm text-gray-200">
             Designing and developing responsive, interactive, and modern user interfaces.
@@ -46,7 +46,7 @@ const Skills = () => {
               initial={{ rotate: 0 }}
               animate={{rotate:360 }}
               transition={{duration:2,ease:"linear", repeat: Infinity }}
-                src="../../../../public/React.png"
+                src={`${import.meta.env.BASE_URL}React.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="React"
               />
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/CSS3.png"
+                src={`${import.meta.env.BASE_URL}CSS3.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="Tailwind"
               />
@@ -62,7 +62,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/JavaScript.png"
+                src={`${import.meta.env.BASE_URL}JavaScript.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="JavaScript"
               />
@@ -78,7 +78,7 @@ const Skills = () => {
         transition={{ duration: 0.1, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.4 }}
         className="max-w-sm w-full mx-auto p-6 bg-gradient-to-br from-purple-900 to-purple-800 text-white rounded-xl shadow-lg hover:scale-105 hover:shadow-[0_0_25px_rgba(50,0,100,.8)] dark:hover:shadow-purple-500/40 transition-shadow transition-transform duration-900 ease-in-out ">
-          <img src="../../../../public/Design.png" className="h-20 w-20" alt="UI/UX" />
+          <img src={`${import.meta.env.BASE_URL}Design.png`} className="h-20 w-20" alt="UI/UX" />
           <h2 className="mt-4 font-semibold text-2xl">UI/UX Design</h2>
           <p className="mt-2 text-sm text-gray-200">
             Designing clean and intuitive interfaces that focus on usability and aesthetics.
@@ -86,7 +86,7 @@ const Skills = () => {
           <div className="flex items-center gap-6 mt-6">
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Figma.png"
+                src={`${import.meta.env.BASE_URL}Figma.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="Figma"
               />
@@ -98,7 +98,7 @@ const Skills = () => {
               animate={{rotate: 360 }}
               transition={{duration:2,ease:"linear", repeat: Infinity }}
               
-                src="../../../../public/Color Mode.png"
+                src={`${import.meta.env.BASE_URL}Color Mode.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="Canva"
               />
@@ -114,7 +114,7 @@ const Skills = () => {
         transition={{ duration: 0.1, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.4 }}
         className="max-w-sm w-full mx-auto p-6 bg-gradient-to-br from-sky-900 to-sky-800 text-white rounded-xl shadow-lg  hover:scale-105 hover:shadow-[0_0_25px_rgba(0,0,180,.8)] dark:hover:shadow-sky-500/40 transition-transform duration-900 ease-in-out">
-          <img src="../../../../public/Add Database.png" className="h-20 w-20" alt="Backend" />
+          <img src={`${import.meta.env.BASE_URL}Database.png`} className="h-20 w-20" alt="Backend" />
           <h2 className="mt-4 font-semibold text-2xl">Back-end Development</h2>
           <p className="mt-2 text-sm text-gray-200">
             Managing server-side logic, APIs, and databases for secure functionality.
@@ -122,7 +122,7 @@ const Skills = () => {
           <div className="flex items-center gap-6 mt-6">
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Stacked Organizational Chart Highlighted First Node.png"
+                src={`${import.meta.env.BASE_URL}Node.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="Node.js"
               />
@@ -130,7 +130,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Azure Api Manager.png"
+                src={`${import.meta.env.BASE_URL}Azure Api Manager.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="Express"
               />
@@ -138,7 +138,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Rest API.png"
+                src={`${import.meta.env.BASE_URL}Rest API.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="API"
               />
@@ -154,7 +154,7 @@ const Skills = () => {
         transition={{ duration: 0.1, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.4 }}
         className="max-w-sm w-full mx-auto p-6 bg-gradient-to-br from-slate-700 to-slate-600 text-white rounded-xl shadow-lg hover:scale-105 hover:shadow-[0_0_25px_rgba(0,0,0,.8)] dark:hover:shadow-slate-400/40 transition-transform duration-900 ease-in-out">
-          <img src="../../../../public/Learning.png" className="h-20 w-20" alt="Problem Solving" />
+          <img src={`${import.meta.env.BASE_URL}Learning.png`} className="h-20 w-20" alt="Problem Solving" />
           <h2 className="mt-4 font-semibold text-2xl">Problem Solving</h2>
           <p className="mt-2 text-sm text-gray-200">
             Solved 150+ algorithmic challenges, improving logical thinking & efficiency.
@@ -162,7 +162,7 @@ const Skills = () => {
           <div className="flex items-center gap-6 mt-6">
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Critical Thinking.png"
+                src={`${import.meta.env.BASE_URL}Critical Thinking.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="LeetCode"
               />
@@ -170,7 +170,7 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
-                src="../../../../public/Web Design.png"
+                src={`${import.meta.env.BASE_URL}Web Design.png`}
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="GFG"
               />
