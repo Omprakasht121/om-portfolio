@@ -166,7 +166,7 @@ const Skills = () => {
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="LeetCode"
               />
-              <p className="text-sm">LeetCode (150+)</p>
+              <p className="text-sm">LeetCode (250+)</p>
             </div>
             <div className="flex flex-col items-center gap-1">
               <img
@@ -174,7 +174,7 @@ const Skills = () => {
                 className="h-12 w-12 object-cover transition-transform hover:scale-110"
                 alt="GFG"
               />
-              <p className="text-sm">GFG (80+)</p>
+              <p className="text-sm">GFG (100+)</p>
             </div>
           </div>
         </motion.div>

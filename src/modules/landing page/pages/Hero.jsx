@@ -11,7 +11,7 @@ const emailURL = import.meta.env.VITE_EMAIL_URL;
 const websiteURL = import.meta.env.VITE_WEBSITE_URL;
 const profileURL = import.meta.env.VITE_PROFILE_URL;
 const Hero = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); 
   const titles = ["Developer", "Designer", "Engineer", "Coder", "Creator"];
   const [index, setIndex] = useState(0);
   const { theme, toggleTheme } = useTheme();
