@@ -53,7 +53,7 @@ const About = () => {
                                 Add - Ghaziabad <br />
                                 Contact - +91 7985960136 <br />
                                 Email - omprakasht5689@gmail.com <br />
-                                Freelancer - Available <br />
+                                Freelancer - <span className="text-green-600 font-bold">Available</span> <br />
                                 Language - English, Hindi
                             </p>
                             </div>
